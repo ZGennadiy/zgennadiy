@@ -4,27 +4,86 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <title>Web Developer - Gennadiy Zinchenko</title>
   </head>
   <body>
+    <header class="container-fluid header">
+      <nav class="row justify-content-between">
+        <ul class="menu">
+          <li class="menu__item"><a href="#main" class="menu__link">Main</a></li>
+          <li class="menu__item"><a href="#portfolio" class="menu__link">Portfolio</a></li>
+          <li class="menu__item"><a href="#contacts" class="menu__link"></a>Contacts</li>
+        </ul>
+        <ul class="menu">
+          <li class="menu__item">Become a friend:</li>
+          <li class="menu__item mr-1 ml-1"><a href="https://twitter.com/gennadiy_tw" target="_blank" class="menu__link">Twitter</a></li>
+          <li class="menu__item mr-1 ml-1"><a href="https://github.com/ZGennadiy" target="_blank" class="menu__link">GitHub</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <section class="hello">
+      <section class="section hello" id="main">
         <div class="container">
-          <img src="assets/img/profile.jpg" alt=" photo Gennadiy" class="profile">
-          <h1>Gennadiy Zinchenko</h1>
-          <h2>Hi there! 👋</h2> 
-          <p>I'm Gennadiy - Frontend-developer based in Krasnodar, Russia 🇷🇺</p>
+            <div class="row col flex-column align-items-center">
+              <img src="assets/img/profile.jpg" alt=" photo Gennadiy" class="profile">
+              <h1 class="h1">Gennadiy Zinchenko</h1>
+              <h2 class="h2">Hi there! 👋</h2> 
+              
+              <p class="p">I'm Gennadiy - Frontend-developer living in 🇷🇺 Russia, Krasnodar.</p>
+              <p class="p">I love doing awesome projects and stupid too, because the Internet needs both.</p>
+            </div>
         </div>
-        <div class="section-name">Hello</div>
+          <div class="section-name">Hello</div>
+        </section>
+        <hr>
+      <section class="section portfolio" id="portfolio">
+        <div class="container">
+          <h2 class="h2">Portfolio</h2>
+          <ul class="portfolio__wrapper row">
+            <li class="portfolio__item">
+              <div class="porfolio__imagebox"><img src="" alt="" class="portfolio__img"></div>
+              <div class="portfolio__descr"></div>
+            </li>
+            <li class="portfolio__item">
+              <div class="porfolio__imagebox"><img src="" alt="" class="portfolio__img"></div>
+              <div class="portfolio__descr"></div>
+            </li>
+            <li class="portfolio__item">
+              <div class="porfolio__imagebox"><img src="" alt="" class="portfolio__img"></div>
+              <div class="portfolio__descr"></div>
+            </li>
+            <li class="portfolio__item">
+              <div class="porfolio__imagebox"><img src="" alt="" class="portfolio__img"></div>
+              <div class="portfolio__descr"></div>
+            </li>
+            <li class="portfolio__item">
+              <div class="porfolio__imagebox"><img src="" alt="" class="portfolio__img"></div>
+              <div class="portfolio__descr"></div>
+            </li>
+            <li class="portfolio__item">
+              <div class="porfolio__imagebox"><img src="" alt="" class="portfolio__img"></div>
+              <div class="portfolio__descr"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="section-name">Portfolio</div>
+      </section>
+      <hr>
+      <section class="section contacts" id="contacts">
+        <div class="container">
+          <h2 class="h2">Contacts</h2>
+        </div>
+        <div class="section-name">Contacts</div>
       </section>
     </main>
     
 
-
+<!-- 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
   </body>
 </html>
