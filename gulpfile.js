@@ -26,6 +26,7 @@ const path = {
     clean: `./${projectFolder}/`,
 };
 
+/* jshint ignore:start */
 const {
     src,
     dest
@@ -42,6 +43,7 @@ const rename = require('gulp-rename');
 const terser = require('gulp-terser-js');
 const babel = require('gulp-babel');
 const imagemin = require('gulp-imagemin');
+
 
 function browserSync() {
     browsersync.init({
@@ -140,3 +142,5 @@ exports.images = images;
 exports.build = build;
 exports.watch = watch;
 exports.default = watch;
+
+/* jshint ignore:end */
