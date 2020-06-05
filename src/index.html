@@ -7,37 +7,18 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Web Developer - Gennadiy Zinchenko">
     <meta property="og:description" content="Hi there! 👋 I'm Gennadiy - Frontend-developer living in 🇷🇺 Russia, Krasnodar. I love doing awesome projects and stupid too, because the Internet needs both.">
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="css/style.min.css">
     <title>Web Developer - Gennadiy Zinchenko</title>
   </head>
   <body>
-    <header class="container-fluid header">
-        <input class="header__toggle" id="header__toggle" type="checkbox">
-            <label class="header__btn" for="header__toggle">
-            <span class="header__hamburger"></span><div class="header__title">Menu</div>
-            </label>
-      <nav class="d-flex justify-content-between header__wrapper">
-        <ul class="menu">
-          <li class="menu__item"><a href="#main" class="menu__link">Main</a></li>
-          <li class="menu__item"><a href="#portfolio" class="menu__link">Portfolio</a></li>
-          <li class="menu__item"><a href="#contacts" class="menu__link">Contacts</a></li>
-        </ul>
-        <ul class="menu">
-          <li class="menu__item">Become a friend:</li>
-          <li class="menu__item mr-1 ml-1"><a href="https://twitter.com/gennadiy_tw" target="_blank" class="menu__link">Twitter</a></li>
-          <li class="menu__item mr-1 ml-1"><a href="https://github.com/ZGennadiy" target="_blank" class="menu__link">GitHub</a></li>
-        </ul>
-      </nav>
-    </header>
+    @@include('html/_header.html')
     <main>
       <section class="section hello" id="main">
         <div class="container">
             <div class="row col flex-column align-items-center">
-              <img src="assets/img/profile.jpg" alt=" photo Gennadiy" class="profile">
+              <img src="img/profile.jpg" alt="photo Gennadiy" class="profile">
               <h1 class="h1">Gennadiy Zinchenko</h1>
               <h2 class="h2">Hi there! 👋</h2> 
               <p class="p">I'm Gennadiy - Frontend-developer living in 🇷🇺 Russia, Krasnodar.</p>
@@ -54,7 +35,8 @@
           <p class="p">Should I add this site in list bellow? 🤔</p>
           <ul class="portfolio__wrapper row">
             <li class="portfolio__item">
-              <div class="porfolio__imagebox"><a href="http://pictures-art.zgennadiy.com/" target="_blank"><img src="assets/img/portfolio/Pictures-art.jpg" alt="preview site for pictures art" class="portfolio__img">
+              <div class="porfolio__imagebox"><a href="http://pictures-art.zgennadiy.com/" target="_blank">
+                <img src="img/portfolio/Pictures-art.jpg" alt="preview site for pictures art" class="portfolio__img">
               </a></div>
               <div class="portfolio__about-project">
                 <div class="portfolio__project-name"><a href="http://pictures-art.zgennadiy.com/" target="_blank">Pictures art</a></div>
@@ -69,7 +51,9 @@
             </li>
 
             <li class="portfolio__item">
-              <div class="porfolio__imagebox"><a href="http://irvas.zgennadiy.com/" target="_blank"><img src="assets/img/portfolio/Windows irvas.jpg" alt="preview site irvas glazing" class="portfolio__img"></a></div>
+              <div class="porfolio__imagebox"><a href="http://irvas.zgennadiy.com/" target="_blank">
+                <img src="img/portfolio/Windows irvas.jpg" alt="preview site irvas glazing" class="portfolio__img">
+              </a></div>
               <div class="portfolio__about-project">
                 <div class="portfolio__project-name"><a href="http://irvas.zgennadiy.com/" target="_blank">Irvas glazing</a></div>
                 <div class="portfolio__descr">
@@ -83,7 +67,9 @@
             </li>
 
             <li class="portfolio__item">
-              <div class="porfolio__imagebox"><a href="http://runsmart.zgennadiy.com/" target="_blank"><img src="assets/img/portfolio/Fitness.jpg" alt="preview site Fitness-tracker" class="portfolio__img"></a></div>
+              <div class="porfolio__imagebox"><a href="http://runsmart.zgennadiy.com/" target="_blank">
+                <img src="img/portfolio/Fitness.jpg" alt="preview site Fitness-tracker" class="portfolio__img">
+              </a></div>
               <div class="portfolio__about-project">
                 <div class="portfolio__project-name"><a href="http://runsmart.zgennadiy.com/" target="_blank">Run smart</a></div>
                 <div class="portfolio__descr">
@@ -97,7 +83,9 @@
             </li>
 
             <li class="portfolio__item">
-              <div class="porfolio__imagebox"><a href="http://learnwords.zgennadiy.com" target="_blank"><img src="assets/img/portfolio/Learn words.jpg" alt="preview site Learn words" class="portfolio__img"></a></div>
+              <div class="porfolio__imagebox"><a href="http://learnwords.zgennadiy.com" target="_blank">
+                <img src="img/portfolio/Learn words.jpg" alt="preview site Learn words" class="portfolio__img">
+              </a></div>
               <div class="portfolio__about-project">
                 <div class="portfolio__project-name"><a href="http://learnwords.zgennadiy.com" target="_blank">Learn words</a></div>
                 <div class="portfolio__descr">
@@ -111,7 +99,9 @@
             </li>
 
             <li class="portfolio__item">
-              <div class="porfolio__imagebox"><a href="http://snake.zgennadiy.com" target="_blank"><img src="assets/img/portfolio/Snake.jpg" alt="preview site Snake game" class="portfolio__img"></a></div>
+              <div class="porfolio__imagebox"><a href="http://snake.zgennadiy.com" target="_blank">
+                <img src="img/portfolio/Snake.jpg" alt="preview site Snake game" class="portfolio__img">
+              </a></div>
               <div class="portfolio__about-project">
                 <div class="portfolio__project-name"><a href="http://snake.zgennadiy.com" target="_blank">Snake game</a></div>
                 <div class="portfolio__descr">
@@ -125,7 +115,9 @@
             </li>
 
             <li class="portfolio__item">
-              <div class="porfolio__imagebox"><a href="http://uberp.zgennadiy.com" target="_blank"><img src="assets/img/portfolio/uber.jpg" alt="preview site Uber partner" class="portfolio__img"></a></div>
+              <div class="porfolio__imagebox"><a href="http://uberp.zgennadiy.com" target="_blank">
+                <img src="img/portfolio/uber.jpg" alt="preview site Uber partner" class="portfolio__img">
+              </a></div>
               <div class="portfolio__about-project">
                 <div class="portfolio__project-name"><a href="http://uberp.zgennadiy.com" target="_blank">Uber partners</a></div>
                 <div class="portfolio__descr">
@@ -172,6 +164,23 @@
       <p class="p">Hey you've scrolled page to the end, you are awesome! 🤩</p>
     </footer>
     
-    <script src="assets/js/main.js"></script>
+    <script src="js/script.min.js"></script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+      m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(64582936, "init", {
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true,
+          webvisor:true
+      });
+    </script>
+    <noscript><div>
+      <img src="https://mc.yandex.ru/watch/64582936" style="position:absolute; left:-9999px;" alt="" />
+    </div></noscript>
+    <!-- /Yandex.Metrika counter -->
   </body>
 </html>

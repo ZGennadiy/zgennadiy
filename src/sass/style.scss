@@ -1,0 +1,18 @@
+@import 'libs/normalize';
+@import 'libs/bootstrap-grid';
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  color: #0F4FA8;
+}
+
+
+@import 'blocks/common/header';
+@import 'blocks/common/headings';
+@import 'blocks/common/section';
+@import 'blocks/common/footer';
+@import 'blocks/menu';
+@import 'blocks/hello';
+@import 'blocks/portfolio';
+@import 'blocks/contacts';
