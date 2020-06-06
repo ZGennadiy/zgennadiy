@@ -1,186 +1,224 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Web Developer - Gennadiy Zinchenko">
-    <meta property="og:description" content="Hi there! 👋 I'm Gennadiy - Frontend-developer living in 🇷🇺 Russia, Krasnodar. I love doing awesome projects and stupid too, because the Internet needs both.">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.min.css">
-    <title>Web Developer - Gennadiy Zinchenko</title>
-  </head>
-  <body>
-    @@include('html/_header.html')
-    <main>
-      <section class="section hello" id="main">
-        <div class="container">
-            <div class="row col flex-column align-items-center">
-              <img src="img/profile.jpg" alt="photo Gennadiy" class="profile">
-              <h1 class="h1">Gennadiy Zinchenko</h1>
-              <h2 class="h2">Hi there! 👋</h2> 
-              <p class="p">I'm Gennadiy - Frontend-developer living in 🇷🇺 Russia, Krasnodar.</p>
-              <p class="p">I love doing awesome projects and stupid too, because the Internet needs both.</p>
-            </div>
-        </div>
-          <div class="section-name">Hello</div>
-        </section>
-        <hr>
 
-      <section class="section portfolio" id="portfolio">
-        <div class="container">
-          <h2 class="h2">Portfolio</h2>
-          <p class="p">Should I add this site in list bellow? 🤔</p>
-          <ul class="portfolio__wrapper row">
-            <li class="portfolio__item">
-              <div class="porfolio__imagebox"><a href="http://pictures-art.zgennadiy.com/" target="_blank">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Web Developer - Gennadiy Zinchenko">
+  <meta property="og:description"
+    content="Hi there! 👋 I'm Gennadiy - Frontend-developer living in 🇷🇺 Russia, Krasnodar. I love doing awesome projects and stupid too, because the Internet needs both.">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Web Developer - Gennadiy Zinchenko</title>
+</head>
+
+<body>
+  @@include('html/_header.html')
+  <main>
+    <section class="section hello" id="main">
+      <div class="container">
+        <div class="row col flex-column align-items-center">
+          <img src="img/profile.jpg" alt="photo Gennadiy" class="profile">
+          <h1 class="h1">Gennadiy Zinchenko</h1>
+          <h2 class="h2">Hi there! 👋</h2>
+          <p class="p">I'm Gennadiy - Frontend-developer living in 🇷🇺 Russia, Krasnodar.</p>
+          <p class="p">I love doing awesome projects and stupid too, because the Internet needs both.</p>
+        </div>
+      </div>
+      <div class="section-name">Hello</div>
+    </section>
+    <hr>
+
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="h2">Portfolio</h2>
+        <p class="p">Should I add this site in list bellow? 🤔</p>
+        <ul class="portfolio__wrapper row">
+          <li class="portfolio__item">
+            <div class="porfolio__imagebox"><a href="http://pictures-art.zgennadiy.com/" target="_blank">
                 <img src="img/portfolio/Pictures-art.jpg" alt="preview site for pictures art" class="portfolio__img">
               </a></div>
-              <div class="portfolio__about-project">
-                <div class="portfolio__project-name"><a href="http://pictures-art.zgennadiy.com/" target="_blank">Pictures art</a></div>
-                <div class="portfolio__descr">
-                  <p class="portfolio__project-descr">Website for company creating picture by photo in different styles.</p>
-                  <div class="portfolio__links">
-                    <div class="portfolio__link-live"><a href="http://pictures-art.zgennadiy.com/" target="_blank">Go live</a></div>
-                    <div class="portfolio__link-source"><a href="https://github.com/ZGennadiy/pictures-art-lp" target="_blank">Source code</a></div>
-                  </div>
+            <div class="portfolio__about-project">
+              <div class="portfolio__project-name"><a href="http://pictures-art.zgennadiy.com/" target="_blank">Pictures
+                  art</a></div>
+              <div class="portfolio__descr">
+                <p class="portfolio__project-descr">Website for company creating picture by photo in different styles.
+                </p>
+                <div class="portfolio__links">
+                  <div class="portfolio__link-live"><a href="http://pictures-art.zgennadiy.com/" target="_blank">Go
+                      live</a></div>
+                  <div class="portfolio__link-source"><a href="https://github.com/ZGennadiy/pictures-art-lp"
+                      target="_blank">Source code</a></div>
                 </div>
               </div>
-            </li>
+            </div>
+          </li>
 
-            <li class="portfolio__item">
-              <div class="porfolio__imagebox"><a href="http://irvas.zgennadiy.com/" target="_blank">
+          <li class="portfolio__item">
+            <div class="porfolio__imagebox"><a href="http://irvas.zgennadiy.com/" target="_blank">
                 <img src="img/portfolio/Windows irvas.jpg" alt="preview site irvas glazing" class="portfolio__img">
               </a></div>
-              <div class="portfolio__about-project">
-                <div class="portfolio__project-name"><a href="http://irvas.zgennadiy.com/" target="_blank">Irvas glazing</a></div>
-                <div class="portfolio__descr">
-                  <p class="portfolio__project-descr">Website for a company that provides services for balcony and loggias glazing.</p>
-                  <div class="portfolio__links">
-                    <div class="portfolio__link-live"><a href="http://irvas.zgennadiy.com/" target="_blank">Go live</a></div>
-                    <div class="portfolio__link-source"><a href="https://github.com/ZGennadiy/windows_irvas" target="_blank">Source code</a></div>
+            <div class="portfolio__about-project">
+              <div class="portfolio__project-name"><a href="http://irvas.zgennadiy.com/" target="_blank">Irvas
+                  glazing</a></div>
+              <div class="portfolio__descr">
+                <p class="portfolio__project-descr">Website for a company that provides services for balcony and loggias
+                  glazing.</p>
+                <div class="portfolio__links">
+                  <div class="portfolio__link-live"><a href="http://irvas.zgennadiy.com/" target="_blank">Go live</a>
                   </div>
+                  <div class="portfolio__link-source"><a href="https://github.com/ZGennadiy/windows_irvas"
+                      target="_blank">Source code</a></div>
                 </div>
               </div>
-            </li>
+            </div>
+          </li>
 
-            <li class="portfolio__item">
-              <div class="porfolio__imagebox"><a href="http://runsmart.zgennadiy.com/" target="_blank">
+          <li class="portfolio__item">
+            <div class="porfolio__imagebox"><a href="http://runsmart.zgennadiy.com/" target="_blank">
                 <img src="img/portfolio/Fitness.jpg" alt="preview site Fitness-tracker" class="portfolio__img">
               </a></div>
-              <div class="portfolio__about-project">
-                <div class="portfolio__project-name"><a href="http://runsmart.zgennadiy.com/" target="_blank">Run smart</a></div>
-                <div class="portfolio__descr">
-                  <p class="portfolio__project-descr">Fitness-trackers online-shop</p>
-                  <div class="portfolio__links">
-                    <div class="portfolio__link-live"><a href="http://runsmart.zgennadiy.com/" target="_blank">Go live</a></div>
-                    <div class="portfolio__link-source"><a href="https://github.com/ZGennadiy/Fitness-tracker" target="_blank">Source code</a></div>
+            <div class="portfolio__about-project">
+              <div class="portfolio__project-name"><a href="http://runsmart.zgennadiy.com/" target="_blank">Run
+                  smart</a></div>
+              <div class="portfolio__descr">
+                <p class="portfolio__project-descr">Fitness-trackers online-shop</p>
+                <div class="portfolio__links">
+                  <div class="portfolio__link-live"><a href="http://runsmart.zgennadiy.com/" target="_blank">Go live</a>
                   </div>
+                  <div class="portfolio__link-source"><a href="https://github.com/ZGennadiy/Fitness-tracker"
+                      target="_blank">Source code</a></div>
                 </div>
               </div>
-            </li>
+            </div>
+          </li>
 
-            <li class="portfolio__item">
-              <div class="porfolio__imagebox"><a href="http://learnwords.zgennadiy.com" target="_blank">
+          <li class="portfolio__item">
+            <div class="porfolio__imagebox"><a href="http://learnwords.zgennadiy.com" target="_blank">
                 <img src="img/portfolio/Learn words.jpg" alt="preview site Learn words" class="portfolio__img">
               </a></div>
-              <div class="portfolio__about-project">
-                <div class="portfolio__project-name"><a href="http://learnwords.zgennadiy.com" target="_blank">Learn words</a></div>
-                <div class="portfolio__descr">
-                  <p class="portfolio__project-descr">React application for learning foreign words</p>
-                  <div class="portfolio__links">
-                    <div class="portfolio__link-live"><a href="http://learnwords.zgennadiy.com" target="_blank">Go live</a></div>
-                    <div class="portfolio__link-source"><a href="https://github.com/ZGennadiy/Learn-words-React-App" target="_blank">Source code</a></div>
-                  </div>
+            <div class="portfolio__about-project">
+              <div class="portfolio__project-name"><a href="http://learnwords.zgennadiy.com" target="_blank">Learn
+                  words</a></div>
+              <div class="portfolio__descr">
+                <p class="portfolio__project-descr">React application for learning foreign words</p>
+                <div class="portfolio__links">
+                  <div class="portfolio__link-live"><a href="http://learnwords.zgennadiy.com" target="_blank">Go
+                      live</a></div>
+                  <div class="portfolio__link-source"><a href="https://github.com/ZGennadiy/Learn-words-React-App"
+                      target="_blank">Source code</a></div>
                 </div>
               </div>
-            </li>
+            </div>
+          </li>
 
-            <li class="portfolio__item">
-              <div class="porfolio__imagebox"><a href="http://snake.zgennadiy.com" target="_blank">
+          <li class="portfolio__item">
+            <div class="porfolio__imagebox"><a href="http://snake.zgennadiy.com" target="_blank">
                 <img src="img/portfolio/Snake.jpg" alt="preview site Snake game" class="portfolio__img">
               </a></div>
-              <div class="portfolio__about-project">
-                <div class="portfolio__project-name"><a href="http://snake.zgennadiy.com" target="_blank">Snake game</a></div>
-                <div class="portfolio__descr">
-                  <p class="portfolio__project-descr">Classic the snake game</p>
-                  <div class="portfolio__links">
-                    <div class="portfolio__link-live"><a href="http://snake.zgennadiy.com" target="_blank">Go live</a></div>
-                    <div class="portfolio__link-source"><a href="https://github.com/ZGennadiy/snake-js" target="_blank">Source code</a></div>
+            <div class="portfolio__about-project">
+              <div class="portfolio__project-name"><a href="http://snake.zgennadiy.com" target="_blank">Snake game</a>
+              </div>
+              <div class="portfolio__descr">
+                <p class="portfolio__project-descr">Classic the snake game</p>
+                <div class="portfolio__links">
+                  <div class="portfolio__link-live"><a href="http://snake.zgennadiy.com" target="_blank">Go live</a>
                   </div>
+                  <div class="portfolio__link-source"><a href="https://github.com/ZGennadiy/snake-js"
+                      target="_blank">Source code</a></div>
                 </div>
               </div>
-            </li>
+            </div>
+          </li>
 
-            <li class="portfolio__item">
-              <div class="porfolio__imagebox"><a href="http://uberp.zgennadiy.com" target="_blank">
+          <li class="portfolio__item">
+            <div class="porfolio__imagebox"><a href="http://uberp.zgennadiy.com" target="_blank">
                 <img src="img/portfolio/uber.jpg" alt="preview site Uber partner" class="portfolio__img">
               </a></div>
-              <div class="portfolio__about-project">
-                <div class="portfolio__project-name"><a href="http://uberp.zgennadiy.com" target="_blank">Uber partners</a></div>
-                <div class="portfolio__descr">
-                  <p class="portfolio__project-descr">Page for uber partners</p>
-                  <div class="portfolio__links">
-                    <div class="portfolio__link-live"><a href="http://uberp.zgennadiy.com" target="_blank">Go live</a></div>
-                    <div class="portfolio__link-source"><a href="https://github.com/ZGennadiy/Uber-LP" target="_blank">Source code</a></div>
+            <div class="portfolio__about-project">
+              <div class="portfolio__project-name"><a href="http://uberp.zgennadiy.com" target="_blank">Uber
+                  partners</a></div>
+              <div class="portfolio__descr">
+                <p class="portfolio__project-descr">Page for uber partners</p>
+                <div class="portfolio__links">
+                  <div class="portfolio__link-live"><a href="http://uberp.zgennadiy.com" target="_blank">Go live</a>
                   </div>
+                  <div class="portfolio__link-source"><a href="https://github.com/ZGennadiy/Uber-LP"
+                      target="_blank">Source code</a></div>
                 </div>
               </div>
-            </li>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="section-name">Portfolio</div>
+    </section>
+    <hr>
+
+    <section class="section contacts" id="contacts">
+      <div class="container">
+        <h2 class="h2">Contacts</h2>
+        <p class="p">Keep in touch 😉</p>
+
+        <div class="contacts__wrapper">
+          <ul class="menu menu_vertical">
+            <li class="menu__item">📱 Phone: <a href="tel:+79186496912" class="menu__link">+7(918)649-69-12</a></li>
+            <li class="menu__item">📧 Email: <a href="mailto:gennadiy.zinchenko@gmail.com" target="_blank"
+                class="menu__link">gennadiy.zinchenko@gmail.com</a></li>
+            <li class="menu__item">👤 Skype: <a href="skype:live:gennadiy.zinchenko?userinfo" target="_blank"
+                class="menu__link">live:gennadiy.zinchenko</a></li>
+            <li class="menu__item">💬 Telegram: <a href="https://t.me/ZGennadiy" target="_blank"
+                class="menu__link">ZGennadiy</a></li>
+          </ul>
+
+          <ul class="menu menu_vertical">
+            <li class="menu__item">💻 GitHub: <a href="https://github.com/ZGennadiy" target="_blank"
+                class="menu__link">ZGennadiy</a></li>
+            <li class="menu__item">🐦 Twitter: <a href="https://twitter.com/gennadiy_tw" target="_blank"
+                class="menu__link">@gennadiy_tw</a></li>
+            <li class="menu__item">🖼️ Instagram: <a href="https://www.instagram.com/z_gennadiy_/" target="_blank"
+                class="menu__link">z_gennadiy_</a></li>
           </ul>
         </div>
-        <div class="section-name">Portfolio</div>
-      </section>
-      <hr>
 
-      <section class="section contacts" id="contacts">
-        <div class="container">
-          <h2 class="h2">Contacts</h2>
-          <p class="p">Keep in touch 😉</p>
+      </div>
+      <div class="section-name">Contacts</div>
+    </section>
+    <hr>
+  </main>
+  <footer class="footer">
+    <p class="p">Hey you've scrolled page to the end, you are awesome! 🤩</p>
+  </footer>
 
-          <div class="contacts__wrapper">
-            <ul class="menu menu_vertical">
-              <li class="menu__item">📱 Phone: <a href="tel:+79186496912" class="menu__link">+7(918)649-69-12</a></li>
-              <li class="menu__item">📧 Email: <a href="mailto:gennadiy.zinchenko@gmail.com" target="_blank" class="menu__link">gennadiy.zinchenko@gmail.com</a></li>
-              <li class="menu__item">👤 Skype: <a href="skype:live:gennadiy.zinchenko?userinfo" target="_blank" class="menu__link">live:gennadiy.zinchenko</a></li>
-              <li class="menu__item">💬 Telegram: <a href="https://t.me/ZGennadiy" target="_blank" class="menu__link">ZGennadiy</a></li>
-            </ul>
-  
-            <ul class="menu menu_vertical">
-              <li class="menu__item">💻 GitHub: <a href="https://github.com/ZGennadiy" target="_blank" class="menu__link">ZGennadiy</a></li>
-              <li class="menu__item">🐦 Twitter: <a href="https://twitter.com/gennadiy_tw" target="_blank" class="menu__link">@gennadiy_tw</a></li>
-              <li class="menu__item">🖼️ Instagram: <a href="https://www.instagram.com/z_gennadiy_/" target="_blank" class="menu__link">z_gennadiy_</a></li>
-            </ul>
-          </div>
-          
-        </div>
-        <div class="section-name">Contacts</div>
-      </section>
-      <hr>
-    </main>
-    <footer class="footer">
-      <p class="p">Hey you've scrolled page to the end, you are awesome! 🤩</p>
-    </footer>
-    
-    <script src="js/script.min.js"></script>
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-      m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+  <script src="js/script.min.js"></script>
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () {
+        (m[i].a = m[i].a || []).push(arguments)
+      };
+      m[i].l = 1 * new Date();
+      k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k,
+        a)
+    })
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-      ym(64582936, "init", {
-          clickmap:true,
-          trackLinks:true,
-          accurateTrackBounce:true,
-          webvisor:true
-      });
-    </script>
-    <noscript><div>
+    ym(64582936, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true,
+      webvisor: true
+    });
+  </script>
+  <noscript>
+    <div>
       <img src="https://mc.yandex.ru/watch/64582936" style="position:absolute; left:-9999px;" alt="" />
-    </div></noscript>
-    <!-- /Yandex.Metrika counter -->
-  </body>
+    </div>
+  </noscript>
+  <!-- /Yandex.Metrika counter -->
+</body>
+
 </html>
