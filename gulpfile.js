@@ -113,9 +113,9 @@ const js = () => {
 const images = () => {
     return src(path.src.img)
         .pipe(dest(path.build.img))
-        .pipe(src(path.src.img))
+        // .pipe(src(path.src.img))
         // .pipe(imagemin())
-        .pipe(dest(path.build.img))
+        // .pipe(dest(path.build.img))
         .pipe(browsersync.stream());
 };
 
