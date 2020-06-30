@@ -79,6 +79,12 @@
         font-size: 14px;
     }
 
+    .disabled-link {
+        text-decoration: line-through;
+        color: gray;
+        cursor: not-allowed;
+    }
+
     &__links a {
         color: #0F4FA8;
     }

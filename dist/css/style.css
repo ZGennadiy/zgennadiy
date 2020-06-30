@@ -1800,6 +1800,12 @@ hr {
   font-size: 14px;
 }
 
+.portfolio .disabled-link {
+  text-decoration: line-through;
+  color: gray;
+  cursor: not-allowed;
+}
+
 .portfolio__links a {
   color: #0F4FA8;
 }
